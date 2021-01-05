@@ -1,0 +1,26 @@
+body{
+  background-color: olive;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.box{
+  text-align: center;
+
+}
+#first{
+  width: 300px;
+  float: left;
+  height: 300px;
+  background-color: blue;
+  margin: auto;
+  margin-left: 33%;
+}
+#second{
+  width: 300px;
+  float: left;
+  height: 300px;
+  background-color: green;
+  margin: auto;
+  margin-left:15%;
+}
