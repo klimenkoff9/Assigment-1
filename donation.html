@@ -1,10 +1,33 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Donation page</title>
+    <link rel="stylesheet" href="donation.css">
   </head>
   <body>
-    This is the donation page.
+    <div class="box" id="first">
+      <div id="venmotitle">Venmo</div>
+      <form class="payment"  method="post">
+        <label for="venmoamount">Amount you wish to donate:</label>
+        <input type="text" name="venmoamount" value="" placeholder="$0.0" maxlength="5">
+      </form>
+    </div>
+    <div class="box" id="second">
+      <div id="cashapptitle">Cashapp</div>
+      <form class="payment" action="index.html" method="post">
+      <label for="cashappamount">Amount you wish to donate:</label>
+      <input type="text" name="cashappamount" value="" placeholder="$0.0" maxlength="5">
+      </form>
+    </div>
+    <div class="box" id="third">
+      <div id="checktitle">You can also make out a check to:</div>
+      <br>
+      <div>Covid Olfaction Research Foundation</div>
+      <br>
+      <div>25 Lab Ave.</div>
+      <br>
+      <div>Brooklyn, NY 11210</div>
+    </div>
   </body>
 </html>
