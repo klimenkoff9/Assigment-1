@@ -32,11 +32,28 @@ body{
   font-weight: bold;
   color: #006622;
 }
+#third{
+  width: 800px;
+  float: left;
+  height: 350px;
+  background-color: #ffd966;
+  margin: auto;
+  margin-left: 35%;
+  margin-top: 10%;
+
+  font-size: 23px;
+  font-weight: bold;
+  color: #002266;
+}
 #venmotitle{
   padding-top: 15%;
   font-size: 35px;
 }
 #cashapptitle{
   padding-top: 15%;
+  font-size: 35px;
+}
+#checktitle{
+  padding-top: 8%;
   font-size: 35px;
 }
