@@ -1,5 +1,5 @@
 body{
-  background-color: olive;
+  background-color: #2d2d86;
   font-size: 18px;
   font-family: sans-serif;
   font-weight: 500;
@@ -20,6 +20,7 @@ body{
   font-size: 23px;
   font-weight: bold;
   color: #002266;
+  
 }
 #second{
   width: 500px;
@@ -30,7 +31,7 @@ body{
   margin-left:10%;
   font-size: 23px;
   font-weight: bold;
-  color: #006622;
+  color: #004d1a;
 }
 #third{
   width: 800px;
